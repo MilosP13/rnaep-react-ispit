@@ -1,0 +1,38 @@
+.homepage-container {
+    background-image: url('https://scontent.fbeg4-1.fna.fbcdn.net/v/t39.30808-6/308744526_491797059625579_494968970850771518_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=783fdb&_nc_ohc=5z6m3-9Sb08AX9f-Bl9&_nc_ht=scontent.fbeg4-1.fna&oh=00_AfAdOxrG-oeUBOVD8FDFDs-WGOearqTD-60vo8s2eApWYQ&oe=659A1EBB');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-home-container {
+    background-color: rgba(142, 197, 117, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 80%; 
+    margin: 0 auto; 
+    text-align: center;
+  }
+
+  .button-home-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 50px; 
+    justify-content: center; 
+    margin-top: 20px;
+  }
+
+  .text-home-container h2{
+    margin-top: 10px;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .text-home-container {
+      max-width: 90%; 
+    }
+  }

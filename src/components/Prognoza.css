@@ -1,0 +1,83 @@
+.bg_img {
+    width: 100%;
+    min-height: 100vh;
+    background: url('https://zamedia.rs/wp-content/uploads/2022/03/Tvrdjava-1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+  }
+  
+  .okvir .input {
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 500px;
+  }
+  
+  .group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  .city {
+    margin-top: 2rem;
+  }
+  
+  .city,
+  .temp {
+    font-size: 3rem;
+  }
+  
+  .box_container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .box {
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 220px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .box:hover {
+    transform: scale(1.1);
+  }
+  
+
+  .okvir{
+    background-color: rgba(88, 116, 52, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 80%; 
+    margin: 0 auto; 
+    text-align: center;
+  }
+
+
+  @media only screen and (max-width: 730px) {
+    .bg_img {
+      padding: 2rem 0;
+    }
+  
+    .box_container {
+      flex-direction: column;
+    }
+  
+    .box,
+    .input {
+      width: 70vw;
+    }
+  }
