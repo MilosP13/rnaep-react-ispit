@@ -1,0 +1,27 @@
+.zagadjenje-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(245, 238, 238);
+    
+}
+
+
+.objasnjenje-zagadjenja{
+    display: flex;
+    color: green;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(245, 238, 238);
+}
+
+
+.objasnjenje-zagadjenja h1{
+    padding-bottom: 20px;
+}

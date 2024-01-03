@@ -10,7 +10,7 @@ function ONama() {
       <h1>O nama</h1>
       </div>
       <div className='oNama-text'>
-        <p>Mi smo drustvo koje se bori za zastittu zivotne sredine i podizanje svesti o 
+        <p>Mi smo drustvo koje se bori za zastitu zivotne sredine i podizanje svesti o 
           zagadjenju i vremenskim promenama koje uticu na sve oko nas. Na ovo stranici mozete procitati o
           danu drveca i takodje mozete donirati novac u svrhe zasadjivanja novih drveca u nasem gradu!
         </p>
