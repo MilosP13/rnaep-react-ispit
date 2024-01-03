@@ -18,7 +18,7 @@ export const Button = ({
   return (
     
       <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+        className={`btnz ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
       >

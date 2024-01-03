@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Pocetna from './components/Pocetna';
 import Prognoza from './components/Prognoza';
+import Kontakt from './components/Kontakt';
+import ONama from './components/ONama';
 
 
 
@@ -17,7 +19,8 @@ function App() {
           <Routes>
             <Route path='/' exact Component={Pocetna} />
             <Route path='/prognoza' exact Component={Prognoza} />
-
+            <Route path='/kontakt' exact Component={Kontakt} />
+            <Route path='/o-nama' exact Component={ONama} />
 
 
           </Routes>

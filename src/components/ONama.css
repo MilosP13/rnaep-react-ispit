@@ -1,0 +1,36 @@
+.oNama-body{
+  background-color: #648800;
+}
+
+
+
+.oNama {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 15vh; 
+    background-color: #648800;
+   
+  }
+  
+  .oNama-text {
+    text-align: center; 
+    margin: 0 auto; 
+    max-width: 600px; 
+    padding: 0px; 
+    background-color: #648800;
+    margin-bottom: 50px;
+  }
+ 
+  
+.oNama h1 {
+    margin-bottom: 20px; 
+    color: white;
+  }
+ 
+  .oNama-text p{
+    font-size: 1.5rem;
+  }
+  
