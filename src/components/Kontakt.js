@@ -30,6 +30,7 @@ function Kontakt() {
 
   return (
     <>
+    <MapComponent />
     <div className='contact'>
             <div className='container'>
                 <div className='col-1'>
@@ -71,7 +72,7 @@ function Kontakt() {
                 </div>
             </div>
         </div>
-       <MapComponent />
+       
        </>
   )
 }

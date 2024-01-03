@@ -7,6 +7,7 @@ import Pocetna from './components/Pocetna';
 import Prognoza from './components/Prognoza';
 import Kontakt from './components/Kontakt';
 import ONama from './components/ONama';
+import Zagadjenje from './components/Zagadjenje';
 
 
 
@@ -21,6 +22,7 @@ function App() {
             <Route path='/prognoza' exact Component={Prognoza} />
             <Route path='/kontakt' exact Component={Kontakt} />
             <Route path='/o-nama' exact Component={ONama} />
+            <Route path='/zagadjenje' exact Component={Zagadjenje} />
 
 
           </Routes>
